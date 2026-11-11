@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مملكة حبنا الأبدية 💖 | حكايتنا الجميلة</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600;700;800;900&family=Marhey:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+
+
+
+
+    <!-- Navigation Bar -->
+    <header class="romantic-navbar glass-panel">
+
+        <div class="nav-container">
+
+            <div class="logo-area">
+
+                <span class="logo-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+
+                <span class="logo-text">نبض قلبي</span>
+
+            </div>
+
+
+            <nav class="nav-links" id="nav-links">
+
+                <a href="#hero" class="nav-link active">
+                    <i class="fa-solid fa-house"></i>
+                    الرئيسية
+                </a>
+
+               
+
+                <a href="#letters" class="nav-link">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    رسائل الغرام
+                </a>
+
+                <a href="#reasons" class="nav-link">
+                    <i class="fa-solid fa-star"></i>
+                    أسباب عشقي
+                </a>
+
+               
+
+                <a href="#promises" class="nav-link">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    عهودنا
+                </a>
+
+                <a href="#quiz" class="nav-link">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    مفاجأة
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <!-- Theme Toggle -->
+                <button
+                    id="theme-toggle-btn"
+                    class="action-btn"
+                    title="تبديل الوضع (نهاري / ليلي)"
+                >
+
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+
+                    <span class="btn-text-tooltip" id="theme-text">
+                        الوضع الليلي
+                    </span>
+
+                </button>
+
+
+                <!-- Accent Colors -->
+                <div class="accent-picker" aria-label="اختيار لون الموقع">
+
+                    <button
+                        type="button"
+                        class="accent-dot"
+                        data-accent="pink"
+                        style="--dot-color:#ff3366"
+                        title="وردي"
+                    ></button>
+
+                    <button
+                        type="button"
+                        class="accent-dot"
+                        data-accent="purple"
+                        style="--dot-color:#a855f7"
+                        title="بنفسجي"
+                    ></button>
+
+                    <button
+                        type="button"
+                        class="accent-dot"
+                        data-accent="blue"
+                        style="--dot-color:#3b82f6"
+                        title="أزرق"
+                    ></button>
+
+                    <button
+                        type="button"
+                        class="accent-dot"
+                        data-accent="green"
+                        style="--dot-color:#10b981"
+                        title="أخضر"
+                    ></button>
+
+                    <button
+                        type="button"
+                        class="accent-dot"
+                        data-accent="orange"
+                        style="--dot-color:#f97316"
+                        title="برتقالي"
+                    ></button>
+
+                </div>
+
+
+                <!-- Relock Button -->
+                <button
+                    id="relock-btn"
+                    class="action-btn"
+                    title="قفل الموقع"
+                >
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+
+
+                <!-- Mobile Menu -->
+                <button
+                    id="mobile-menu-btn"
+                    class="action-btn mobile-only"
+                    title="القائمة"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- Music Player -->
+    
+
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main">
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section">
+
+            <div class="hero-rose-decor hero-rose-left"></div>
+            <div class="hero-rose-decor hero-rose-right"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+
+                    <i class="fa-solid fa-sparkles"></i>
+
+                    <span>
+                        أنتِ أجمل صدفة أهدتني إياها الحياة
+                    </span>
+
+                </div>
+
+
+                <h1 class="hero-title">
+
+                    حكايتنا ليست مجرد قصة...<br>
+
+                    بل <span class="gradient-text">وطنٌ لقلبي</span>
+                    وأنتِ كل تفاصيله
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    أهلاً بكِ في عالمنا الخاص المزين بالورود والذكريات الجميلة..
+                    هذا المكان صُنع بحب لأجلكِ ولأجل كل نبضة تجمعنا.
+
+                </p>
+
+
+                <!-- Heartbeat -->
+                <div class="hero-interactive-card glass-panel">
+
+                    <div class="heartbeat-container">
+
+                        <button
+                            id="heartbeat-btn"
+                            class="heart-pulse-btn"
+                            title="اضغط لترسل نبضة"
+                        >
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <div class="heartbeat-info">
+
+                            <span class="hb-count-number" id="heart-count">
+                                999+
+                            </span>
+
+                            <span class="hb-count-label">
+                                نبضة حب أرسلتها لقلبك اليوم
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                   
+
+                </div>
+
+
+                <div class="hero-actions">
+
+                    <a href="#letters" class="btn-romantic">
+                        <span> كلام من قلبي ليكي</span>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- LOVE LETTERS SECTION -->
+        <section id="letters" class="section-padding letters-section">
+
+            <div class="section-header">
+
+                <div class="section-icon"></div>
+
+                <h2 class="section-title">
+                    صندوق رسائل الغرام
+                </h2>
+
+                <div class="floral-divider">
+                    <div class="line"></div>
+                    <span></span>
+                    <div class="line"></div>
+                    <span></span>
+                </div>
+
+                <p class="section-subtitle">
+                    كلمات كُتبت بماء الورد ونبض القلب..
+                    افتح الأظرف لتقرأ أسرار حبي
+                </p>
+
+            </div>
+
+
+            <div class="letters-grid" id="letters-grid">
+
+                <!-- Letter 1 -->
+                <div class="envelope-card glass-panel" onclick="openLetter(0)">
+
+                    <div class="envelope-top">
+                        <span class="stamp-rose"></span>
+
+                        <div class="wax-seal">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="envelope-body">
+
+                        <h3 class="letter-title">
+                            إلى من أضاء عتمتي
+                        </h3>
+
+                        <p class="letter-preview">
+                            منذ اللحظة الأولى التي التقيتك فيها،
+                            أدركت أن في عينيك حياة أخرى...
+                        </p>
+
+                        <span class="read-more-btn">
+                            افتح الرسالة
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Letter 2 -->
+                <div class="envelope-card glass-panel" onclick="openLetter(1)">
+
+                    <div class="envelope-top">
+                        <span class="stamp-rose"></span>
+
+                        <div class="wax-seal">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="envelope-body">
+
+                        <h3 class="letter-title">
+                            قصيدة إلى ابتسامتك
+                        </h3>
+
+                        <p class="letter-preview">
+                            ابتسامتك ليست مجرد ملامح جميلة،
+                            بل هي الصباح الذي أستيقظ لأجله...
+                        </p>
+
+                        <span class="read-more-btn">
+                            افتح الرسالة
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Letter 3 -->
+                <div class="envelope-card glass-panel" onclick="openLetter(2)">
+
+                    <div class="envelope-top">
+                        <span class="stamp-rose"></span>
+
+                        <div class="wax-seal">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="envelope-body">
+
+                        <h3 class="letter-title">
+                            وعد الأيام القادمة
+                        </h3>
+
+                        <p class="letter-preview">
+                            أعدك أن أكون لك السند والأمان،
+                            وأن أحبك في أصعب الأيام قبل أيسرها...
+                        </p>
+
+                        <span class="read-more-btn">
+                            افتح الرسالة
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Letter 4 -->
+                <div class="envelope-card glass-panel" onclick="openLetter(3)">
+
+                    <div class="envelope-top">
+                        <span class="stamp-rose"></span>
+
+                        <div class="wax-seal">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="envelope-body">
+
+                        <h3 class="letter-title">
+                            سر صغير لقلبك
+                        </h3>
+
+                        <p class="letter-preview">
+                            كلما سألوني عن سبب لمعة عيني هذه الأيام،
+                            أنطق اسمك سراً وابتسم...
+                        </p>
+
+                        <span class="read-more-btn">
+                            افتح الرسالة
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Add New Letter -->
+            <div class="add-letter-container">
+
+                <button id="add-letter-btn" class="btn-romantic glow-btn">
+
+                    <i class="fa-solid fa-feather-pointed"></i>
+
+                    <span>
+                        اكتب رسالة حب جديدة وأضفها للصندوق
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+      
+
+
+
+        <!-- ROMANTIC SURPRISE SECTION -->
+        <section id="quiz" class="section-padding quiz-section">
+
+            <div class="section-header">
+
+                <div class="section-icon"></div>
+
+                <h2 class="section-title">
+                    صندوق المفاجآت السحرية
+                </h2>
+
+                <div class="floral-divider">
+
+                    <span></span>
+
+                    <div class="line"></div>
+
+                    <span></span>
+
+                    <div class="line"></div>
+
+                    <span></span>
+
+                </div>
+
+                <p class="section-subtitle">
+                    اكتشف رسالتك السرية لليوم أو احسب درجة التوافق بين قلبينا!
+                </p>
+
+            </div>
+
+
+            <div class="surprise-grid">
+
+                <!-- Secret Fortune Card -->
+                <div class="surprise-card glass-panel">
+
+                    <div class="card-icon"></div>
+
+                    <h3>
+                        رسالة القدر لك اليوم
+                    </h3>
+
+                    <p>
+                        المس الزهرة واكشف ما يحمله لك قلبي اليوم من مشاعر خاصة!
+                    </p>
+
+                    <div class="fortune-result" id="fortune-box">
+                        اضغط على الزر لكشف الرسالة السرية
+                    </div>
+
+                    <button id="fortune-btn" class="btn-romantic btn-sm">
+
+                        <span>
+                            افتح رسالة اليوم
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Love Compatibility Meter -->
+                <div class="surprise-card glass-panel">
+
+                    <div class="card-icon"></div>
+
+                    <h3>
+                        مقياس نبض القلوب
+                    </h3>
+
+                    <p>
+                        اكتب اسمك واسم حبيبك لترى سحر التوافق الأبدي بينكما:
+                    </p>
+
+                    <div class="compat-inputs">
+
+                        <input
+                            type="text"
+                            id="name1"
+                            placeholder="اسمك الجميل..."
+                            value="أنا"
+                        >
+
+                        <span class="plus-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+
+                        <input
+                            type="text"
+                            id="name2"
+                            placeholder="اسم حبيب الروح..."
+                            value="حبيبي"
+                        >
+
+                    </div>
+
+                    <div class="compat-result" id="compat-box">
+                        نسبة الحب: 100% عشق أبدي لا نهائي
+                    </div>
+
+                    <button id="calc-compat-btn" class="btn-romantic btn-sm">
+
+                        <span>
+                            احسب نبض العشق
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="romantic-footer glass-panel">
+
+        <div class="footer-rose-garland">
+            𝑰 𝑳𝒐𝒗𝒆 𝒚𝒐𝒖 𝑫𝒐𝒅𝒚
+        </div>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-heart beat-animation"></i>
+
+                <span>
+                    مملكة حبنا الأبدية
+                </span>
+
+            </div>
+
+            <p class="footer-quote">
+                "أنت النعمة التي أحمد الله عليها في كل سجدة ودعاء"
+            </p>
+
+        </div>
+
+    </footer>
+
+        <!-- MODAL: Full Love Letter Viewer -->
+    <div id="letter-modal" class="romantic-modal">
+
+        <div class="modal-backdrop" onclick="closeLetterModal()"></div>
+
+        <div class="modal-card letter-paper glass-panel">
+
+            <button
+                class="modal-close-btn"
+                onclick="closeLetterModal()"
+                title="إغلاق"
+            >
+                &times;
+            </button>
+
+            <div class="letter-modal-header">
+
+                <span class="letter-modal-rose"></span>
+
+                <h2 id="modal-letter-title">
+                    عنوان الرسالة
+                </h2>
+
+                <span class="letter-modal-date" id="modal-letter-date">
+                    منذ نبض قلبي
+                </span>
+
+            </div>
+
+            <div class="letter-modal-body" id="modal-letter-body">
+                نص الرسالة هنا...
+            </div>
+
+            <div class="letter-modal-signature">
+
+                <p>
+                    المخلص لك دائماً وأبداً،
+                </p>
+
+                <div class="signature-heart">
+                    حبيبك وروحك
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MODAL: Write New Love Letter -->
+    <div id="write-letter-modal" class="romantic-modal">
+
+        <div class="modal-backdrop" onclick="closeWriteModal()"></div>
+
+        <div class="modal-card letter-form-card glass-panel">
+
+            <button
+                class="modal-close-btn"
+                onclick="closeWriteModal()"
+                title="إغلاق"
+            >
+                &times;
+            </button>
+
+            <div class="modal-header">
+
+                <i class="fa-solid fa-feather-pointed"></i>
+
+                <h2>
+                    اكتب رسالة من قلبك
+                </h2>
+
+                <p>
+                    ستُحفظ هذه الرسالة في صندوق رسائل الموقع للأبد
+                </p>
+
+            </div>
+
+
+            <form
+                id="new-letter-form"
+                onsubmit="saveNewLetter(event)"
+            >
+
+                <div class="form-group">
+
+                    <label for="new-letter-title">
+                        عنوان الرسالة:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="new-letter-title"
+                        placeholder="مثال: إلى أجمل عيون في الكون..."
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="new-letter-text">
+                        نص الرسالة:
+                    </label>
+
+                    <textarea
+                        id="new-letter-text"
+                        rows="6"
+                        placeholder="اكتب مشاعرك بكل صدق..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn-romantic glow-btn"
+                    style="width:100%;"
+                >
+
+                    <span>
+                        حفظ الرسالة في صندوق الحب
+                    </span>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MODAL: Photo Lightbox -->
+    <div id="photo-modal" class="romantic-modal">
+
+        <div class="modal-backdrop" onclick="closePhotoModal()"></div>
+
+        <div class="lightbox-content">
+
+            <button
+                class="modal-close-btn light"
+                onclick="closePhotoModal()"
+                title="إغلاق"
+            >
+                &times;
+            </button>
+
+            <div class="lightbox-img-frame">
+
+                <img
+                    id="lightbox-img"
+                    src=""
+                    alt="صورة مكبرة"
+                >
+
+            </div>
+
+            <div class="lightbox-caption" id="lightbox-caption">
+                عنوان الصورة
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
